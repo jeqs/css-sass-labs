@@ -1,0 +1,85 @@
+table.summaryTable {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial;
+}
+
+table.summaryTable,
+table.summaryTable td,
+table.summaryTable th {
+  border-spacing: 0;
+}
+
+table.summaryTable {
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+table.summaryTable thead {
+  background-color: black;
+  color: white;
+}
+
+table.summaryTable td,
+th {
+  padding: 15px 70px;
+}
+
+table.summaryTable tbody tr:nth-child(even) {
+  background-color: rgb(187, 178, 178);
+}
+
+table.summaryTable tbody tr th {
+  color: white;
+  background-color: #1769d4;
+}
+
+table.summaryTable tbody tr:nth-child(even) th {
+  background-color: #4a83ce;
+}
+
+table.summaryTable td.hight {
+  background-color: #F9D949;
+  font-weight: bold;
+}
+
+table.summaryTable td.low {
+  background-color: rgb(249, 123, 73);
+  font-weight: bold;
+}
+
+table.summaryTable a.btn {
+  background-color: rgb(91, 94, 91);
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+
+table.summaryTable a.btn.btn-progress {
+  background-color: rgb(73, 164, 249); 
+  color: white;
+}
+table.summaryTable a.btn.btn-progress:hover {
+  background-color: rgb(4, 132, 252); 
+}
+
+
+table.summaryTable a.btn.btn-ok {
+  background-color: rgb(133, 223, 138);
+  color: yellow;
+}
+table.summaryTable a.btn.btn-ok:hover {
+  background-color: rgb(0, 255, 13); 
+}
+
+table.summaryTable a.btn.btn-fail {
+  background-color: rgb(249, 93, 73); 
+  color: yellow;
+}
+table.summaryTable a.btn.btn-fail:hover {
+  background-color: rgb(245, 46, 20); 
+}

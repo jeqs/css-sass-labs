@@ -1,0 +1,39 @@
+body {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url("https://raw.githubusercontent.com/bienvenidosaez/conquerblocks-css/736e320f1b7e783236ef1440b1ac54db758974eb/01_clases/Clase%2026a%20-%20Ejercicios%20de%20posicionamiento%20Grid%20-%20Relaci%C3%B3n%202%20-%20Ejercicio%201/code/img/topography.svg"), linear-gradient(to right, #e04e6e, #804abc);
+  padding: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section.destacados {
+  background-color: white;
+}
+section.destacados h1 {
+  font-size: 30px;
+}
+section.destacados:hover {
+  background-color: indigo;
+  font-size: 20px;
+}
+section.destacados:active {
+  background-color: blue;
+  font-size: 14px;
+}
+
+.element {
+  background-color: blue;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.element {
+  box-shadow: 2px 2px 4px #888;
+}/*# sourceMappingURL=sass.css.map */

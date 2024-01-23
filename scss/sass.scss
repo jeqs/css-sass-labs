@@ -1,0 +1,60 @@
+//@use 'vars';
+@import "./_vars.scss";
+
+body {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url("https://raw.githubusercontent.com/bienvenidosaez/conquerblocks-css/736e320f1b7e783236ef1440b1ac54db758974eb/01_clases/Clase%2026a%20-%20Ejercicios%20de%20posicionamiento%20Grid%20-%20Relaci%C3%B3n%202%20-%20Ejercicio%201/code/img/topography.svg"),
+    linear-gradient(to right, #e04e6e, #804abc);
+  padding: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section.destacados {
+  background-color: map-get($background-colors-bottons, normal);
+
+  h1 {
+    font-size: $font-size-normal;
+  }
+
+  &:hover {
+    background-color: $background-color-hover;
+    font-size: $font-size-hover;
+  }
+
+  &:active {
+    background-color: $background-color-active;
+    font-size: $font-size-active;
+  }
+}
+
+$color: blue;
+.element {
+  @if $color == blue {
+    background-color: $color;
+  } @else {
+    background-color: red;
+  }
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin box-shadow($x, $y, $blur, $color) {
+  box-shadow: $x $y $blur $color;
+}
+
+nav ul {
+  @include reset-list();
+}
+
+.element {
+  @include box-shadow(2px, 2px, 4px, #888);
+}

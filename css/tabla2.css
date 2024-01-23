@@ -1,0 +1,55 @@
+table.summaryTable {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial;
+}
+
+table.summaryTable,
+table.summaryTable td,
+table.summaryTable th {
+  border-spacing: 0;
+}
+
+table.summaryTable {
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 10px;
+}
+
+table.summaryTable thead {
+  background-color: #1769d4;
+  color: white;
+}
+
+table.summaryTable td,
+th {
+  padding: 15px 70px;
+}
+
+table.summaryTable tbody tr th {
+  color: white;
+  background-color: #1769d4;
+}
+
+table.summaryTable tbody td:nth-child(odd) {
+  background-color: #96a8be;
+}
+
+
+table.summaryTable a.btn {
+  background-color: rgb(91, 94, 91);
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+
+table.summaryTable a.btn.btn-singup {
+  background-color: rgb(73, 164, 249); 
+  color: white;
+}
+table.summaryTable a.btn.btn-singup:hover {
+  background-color: rgb(4, 132, 252); 
+}
+

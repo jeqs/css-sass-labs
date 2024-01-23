@@ -1,0 +1,54 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 30px;
+  color: azure;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav>ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav>ul li a {
+  display: block;
+  padding: 15px 35px;
+  background-color: #56A4E0;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav>ul>li>a:hover {
+  background-color: black;
+  color: white;
+}
+
+ul.dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+ul.dropdown a {
+  background-color: black;
+}
+
+nav>ul li:hover ul.dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+ul.dropdown a:hover{
+  background-color: #56A4E0;
+}
